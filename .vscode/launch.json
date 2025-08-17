@@ -1,0 +1,175 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "SpecificDigit",
+      "request": "launch",
+      "mainClass": "Numbers.SpecificDigit",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Problem17_SpecificDigitCount",
+      "request": "launch",
+      "mainClass": "Numbers.Problem17_SpecificDigitCount",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "RhombusOutline",
+      "request": "launch",
+      "mainClass": "patterns.RhombusOutline",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "RhombusFill",
+      "request": "launch",
+      "mainClass": "patterns.RhombusFill",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Rhombus",
+      "request": "launch",
+      "mainClass": "patterns.Rhombus",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "LeftDiagonal",
+      "request": "launch",
+      "mainClass": "patterns.LeftDiagonal",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "RightSidedTriangle",
+      "request": "launch",
+      "mainClass": "patterns.RightSidedTriangle",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "DecreasingTriangle",
+      "request": "launch",
+      "mainClass": "patterns.DecreasingTriangle",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "IncresingTriangle",
+      "request": "launch",
+      "mainClass": "patterns.IncresingTriangle",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Conditionals",
+      "request": "launch",
+      "mainClass": "Conditionals",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "DataTypes",
+      "request": "launch",
+      "mainClass": "DataTypes",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Literals",
+      "request": "launch",
+      "mainClass": "Literals",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Loops",
+      "request": "launch",
+      "mainClass": "Loops",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Arithmetic",
+      "request": "launch",
+      "mainClass": "Operators.Arithmetic",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Assignment",
+      "request": "launch",
+      "mainClass": "Operators.Assignment",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Logical",
+      "request": "launch",
+      "mainClass": "Operators.Logical",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Relational",
+      "request": "launch",
+      "mainClass": "Operators.Relational",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Ternary",
+      "request": "launch",
+      "mainClass": "Operators.Ternary",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "SimpleProgram",
+      "request": "launch",
+      "mainClass": "SimpleProgram",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Swapping",
+      "request": "launch",
+      "mainClass": "Swapping",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Switch",
+      "request": "launch",
+      "mainClass": "Switch",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "VariableExamples",
+      "request": "launch",
+      "mainClass": "VariableExamples",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Square",
+      "request": "launch",
+      "mainClass": "patterns.Square",
+      "projectName": "Java-Course_bbe2906b"
+    }
+  ]
+}
