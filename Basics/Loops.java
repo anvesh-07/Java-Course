@@ -1,3 +1,5 @@
+package Basics;
+
 import java.util.Scanner;
 
 public class Loops {
@@ -21,16 +23,17 @@ public class Loops {
         System.out.println("--- 3. Problem: Simple number guessing game ---");
         // To run this interactive part, you would typically uncomment it.
         // guessTheNumberGame();
-        System.out.println("Solution: A 'do-while' loop ensures the user gets at least one guess. (Code is commented out).");
+        System.out.println(
+                "Solution: A 'do-while' loop ensures the user gets at least one guess. (Code is commented out).");
         System.out.println("------------------------------------------------------------------\n");
 
         // --- 4. Enhanced 'for' Loop Problem ---
         System.out.println("--- 4. Problem: Find the sum of all elements in an array ---");
-        int[] numbers = {10, 20, 30, 40, 50};
+        int[] numbers = { 10, 20, 30, 40, 50 };
         int sum = sumArrayElements(numbers);
         System.out.println("Solution: The sum of the array elements is " + sum + ".");
         System.out.println("------------------------------------------------------------------\n");
-        
+
         // --- 5. Nested Loops Problem ---
         System.out.println("--- 5. Problem: Print a simple pyramid pattern of stars ---");
         printStarPyramid(5);
@@ -38,18 +41,20 @@ public class Loops {
 
         // --- 6. Loop Control (break and continue) Problem ---
         System.out.println("--- 6. Problem: Find the first multiple of 7 in an array, skipping odd numbers ---");
-        int[] searchArray = {3, 10, 21, 15, 14, 28, 40};
+        int[] searchArray = { 3, 10, 21, 15, 14, 28, 40 };
         findSpecialNumber(searchArray);
         System.out.println("------------------------------------------------------------------");
     }
 
     /**
      * Solves factorial using a 'for' loop.
-     * A 'for' loop is ideal here because we know exactly how many times we need to multiply
+     * A 'for' loop is ideal here because we know exactly how many times we need to
+     * multiply
      * (from 1 up to the number itself).
      */
     public static long calculateFactorial(int n) {
-        if (n < 0) return -1; // Factorial is not defined for negative numbers
+        if (n < 0)
+            return -1; // Factorial is not defined for negative numbers
         long result = 1;
         // Loop from 1 to n, multiplying each number into the result.
         for (int i = 1; i <= n; i++) {
@@ -60,7 +65,8 @@ public class Loops {
 
     /**
      * Solves integer reversal using a 'while' loop.
-     * A 'while' loop is perfect because we don't know the number of digits beforehand.
+     * A 'while' loop is perfect because we don't know the number of digits
+     * beforehand.
      * The loop continues as long as there are digits left to process.
      */
     public static int reverseInteger(int number) {
@@ -77,7 +83,8 @@ public class Loops {
 
     /**
      * Solves a guessing game using a 'do-while' loop.
-     * A 'do-while' loop is essential here because the user must be prompted to enter a guess
+     * A 'do-while' loop is essential here because the user must be prompted to
+     * enter a guess
      * at least once before we can check if it's correct.
      */
     public static void guessTheNumberGame() {
@@ -96,7 +103,8 @@ public class Loops {
 
     /**
      * Solves array summation using an enhanced 'for' loop (for-each).
-     * The for-each loop is the cleanest and most readable way to process every element
+     * The for-each loop is the cleanest and most readable way to process every
+     * element
      * of a collection or array when you don't need the index.
      */
     public static int sumArrayElements(int[] array) {
@@ -107,7 +115,7 @@ public class Loops {
         }
         return total;
     }
-    
+
     /**
      * Uses nested 'for' loops to print a pattern.
      * The outer loop controls the number of rows.

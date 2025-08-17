@@ -1,3 +1,5 @@
+package Basics;
+
 public class Switch {
 
     // An enum to demonstrate switching on a non-primitive type.

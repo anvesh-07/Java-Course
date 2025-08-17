@@ -1,25 +1,27 @@
+package Basics;
+
 public class DataTypes {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
         // Integer types
-        byte byteValue = 120;                // 1 byte
-        short shortValue = 30000;            // 2 bytes
-        int intValue = 500000;               // 4 bytes
-        long longValue = 9000000000L;        // 8 bytes
+        byte byteValue = 120; // 1 byte
+        short shortValue = 30000; // 2 bytes
+        int intValue = 500000; // 4 bytes
+        long longValue = 9000000000L; // 8 bytes
 
         // Floating-point types
-        float floatValue = 5.75f;            // 4 bytes
-        double doubleValue = 19.99d;         // 8 bytes
+        float floatValue = 5.75f; // 4 bytes
+        double doubleValue = 19.99d; // 8 bytes
 
         // Character type
-        char charValue = 'A';                // 2 bytes
+        char charValue = 'A'; // 2 bytes
 
         // Boolean type
-        boolean booleanValue = true;         // 1 bit
+        boolean booleanValue = true; // 1 bit
 
         // Reference types
         String stringValue = "Hello, Java!"; // String is an object
-        int[] numbersArray = {1, 2, 3, 4, 5}; // Array is a reference type
+        int[] numbersArray = { 1, 2, 3, 4, 5 }; // Array is a reference type
 
         // Printing all values
         System.out.println("=== Primitive Data Types ===");

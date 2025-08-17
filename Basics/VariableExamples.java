@@ -1,3 +1,4 @@
+package Basics;
 
 public class VariableExamples {
 
@@ -10,11 +11,13 @@ public class VariableExamples {
         byte smallNumber = 100;
         System.out.println("Value of byte variable 'smallNumber': " + smallNumber);
 
-        // 'short' is used for numbers that are larger than a byte but still relatively small.
+        // 'short' is used for numbers that are larger than a byte but still relatively
+        // small.
         short mediumNumber = 30000;
         System.out.println("Value of short variable 'mediumNumber': " + mediumNumber);
 
-        // 'int' is the most commonly used integer type for general-purpose whole numbers.
+        // 'int' is the most commonly used integer type for general-purpose whole
+        // numbers.
         int userAge = 25;
         System.out.println("Value of int variable 'userAge': " + userAge);
 
@@ -24,7 +27,6 @@ public class VariableExamples {
 
         System.out.println("------------------------------------");
 
-
         // --- FLOATING-POINT TYPES ---
         // These types are used for numbers with decimal points.
 
@@ -32,12 +34,12 @@ public class VariableExamples {
         float price = 19.99f;
         System.out.println("Value of float variable 'price': " + price);
 
-        // 'double' is a double-precision decimal number. It's more precise and the default type for decimals.
+        // 'double' is a double-precision decimal number. It's more precise and the
+        // default type for decimals.
         double piValue = 3.14159265359;
         System.out.println("Value of double variable 'piValue': " + piValue);
 
         System.out.println("------------------------------------");
-
 
         // --- OTHER PRIMITIVE TYPES ---
 
@@ -51,9 +53,9 @@ public class VariableExamples {
 
         System.out.println("------------------------------------");
 
-
         // --- REFERENCE TYPE: String ---
-        // A String is not a primitive type; it's a class. It holds a sequence of characters.
+        // A String is not a primitive type; it's a class. It holds a sequence of
+        // characters.
         // It's defined with double quotes.
         String greeting = "Hello, Java learners!";
         System.out.println("Value of String variable 'greeting': " + greeting);

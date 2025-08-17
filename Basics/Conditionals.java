@@ -1,8 +1,11 @@
+package Basics;
+
 public class Conditionals {
-  public static void main(String[] args) {
+    public static void main(String[] args) {
 
         System.out.println("--- 1. The 'if' Statement ---");
-        // Use 'if' when you want to execute a block of code only when a condition is true.
+        // Use 'if' when you want to execute a block of code only when a condition is
+        // true.
         int userAge = 20;
         if (userAge >= 18) {
             System.out.println("Condition is true. User is 18 or older. Access granted.");
@@ -13,9 +16,9 @@ public class Conditionals {
         }
         System.out.println("----------------------------------\n");
 
-
         System.out.println("--- 2. The 'if-else' Statement ---");
-        // Use 'if-else' for a clear "this or that" choice. One of the two blocks will always execute.
+        // Use 'if-else' for a clear "this or that" choice. One of the two blocks will
+        // always execute.
         int temperature = 15; // degrees Celsius
         if (temperature > 25) {
             // This block is skipped because the condition is false.
@@ -26,7 +29,6 @@ public class Conditionals {
         }
         System.out.println("----------------------------------\n");
 
-
         System.out.println("--- 3. The 'if-else if-else' Ladder ---");
         // Use this for checking a sequence of multiple conditions.
         // The first one that is true gets executed, and the rest are skipped.
@@ -36,7 +38,7 @@ public class Conditionals {
         if (score >= 90) {
             grade = 'A';
         } else if (score >= 80) { // This condition (88 >= 80) is true.
-            grade = 'B';           // 'B' is assigned, and the ladder is exited.
+            grade = 'B'; // 'B' is assigned, and the ladder is exited.
         } else if (score >= 70) {
             grade = 'C';
         } else {
@@ -45,9 +47,9 @@ public class Conditionals {
         System.out.println("A score of " + score + " earns a grade of: " + grade);
         System.out.println("----------------------------------\n");
 
-
         System.out.println("--- 4. Nested 'if' Statements ---");
-        // Use nested 'if' to check for a secondary condition after a primary one is met.
+        // Use nested 'if' to check for a secondary condition after a primary one is
+        // met.
         boolean hasLicense = true;
         int personAge = 22;
 
