@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EnhancedForLoop",
+      "request": "launch",
+      "mainClass": "OOPS.Array.EnhancedForLoop",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
       "name": "SpecificDigit",
       "request": "launch",
       "mainClass": "Numbers.SpecificDigit",
