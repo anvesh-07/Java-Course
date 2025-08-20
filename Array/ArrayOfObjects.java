@@ -1,4 +1,3 @@
-package OOPS.Array;
 
 class Student {
   String name;

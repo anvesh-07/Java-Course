@@ -1,4 +1,4 @@
-package OOPS.Array.problems;
+package problems;
 
 class ArrayLength {
   public static void main(String[] args) {

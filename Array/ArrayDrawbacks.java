@@ -1,4 +1,3 @@
-package OOPS.Array;
 
 class ArrayDrawbacks {
   public static void main(String[] args) {
