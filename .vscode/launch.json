@@ -6,6 +6,69 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TwoSum",
+      "request": "launch",
+      "mainClass": "problems.TwoSum",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "SumAvgArray",
+      "request": "launch",
+      "mainClass": "problems.SumAvgArray",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "RotateArray",
+      "request": "launch",
+      "mainClass": "problems.RotateArray",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "ReverseArray",
+      "request": "launch",
+      "mainClass": "problems.ReverseArray",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "RemoveDuplicates",
+      "request": "launch",
+      "mainClass": "problems.RemoveDuplicates",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "MaxMinArray",
+      "request": "launch",
+      "mainClass": "problems.MaxMinArray",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "Demo",
+      "request": "launch",
+      "mainClass": "Basics.Demo",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "ArrayDrawbacks",
+      "request": "launch",
+      "mainClass": "ArrayDrawbacks",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
+      "name": "ArrayBasics",
+      "request": "launch",
+      "mainClass": "ArrayBasics",
+      "projectName": "Java-Course_bbe2906b"
+    },
+    {
+      "type": "java",
       "name": "Demo",
       "request": "launch",
       "mainClass": "Demo",

@@ -1,5 +1,6 @@
 {
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
-  "notebook.defaultFormatter": "redhat.java"
+  "notebook.defaultFormatter": "redhat.java",
+  "files.autoSave": "afterDelay"
 }
